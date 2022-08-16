@@ -1,0 +1,418 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:01 PM
+    Author     : frontend
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+/*
+font-family: 'Rubik', sans-serif;
+*/
+
+
+
+
+body{
+    font-family: 'Rubik',sans-serif;
+    font-weight: 400;
+}
+
+h1, h2,h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Rubik',sans-serif;
+    font-weight: 500;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 16px;
+
+}
+
+.bg-bitcoin{
+    background-color: #313A5A;
+
+}
+
+
+
+.green{
+    background-color:#1FDB84;
+}
+.button{
+    background-color: #1FDB84;
+    color: #FFFFFF;
+    box-shadow: 0 8px 34px 0 rgba(31,219,132,0.6);
+    border-radius: 6px;
+    border: 0;
+}
+
+header{
+    padding: 30px 0px;
+
+}
+/*
+navigation
+*/
+
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 5px;
+    display:block;
+
+
+
+
+
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0px;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 34px;
+    color:#FFF;
+    border-bottom: 2px solid #313A5A;
+    padding: 0 10px;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover
+{
+    border-bottom: 3px solid #1FDB84;
+}
+
+
+.navbar .navbar-nav .nav-link.login{
+    color: #1FDB84;
+}
+;
+
+/*
+slide-section
+*/
+
+
+
+.lead-section .lead-section-text{
+
+    padding: 70px 0;
+}
+
+.lead-section .lead-section-text p{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 180px;
+    left: 45%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    width: 9px;
+    height: 9px;
+    margin-right: 19px;
+    margin-left: 0;
+    background-color:transparent ;
+    border-radius: 50%;
+    border:2px solid #1FDB84;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-indicators .active{
+    background-color:#1FDB84;
+}
+
+/* about */
+
+.about .container{
+    margin-top: -90px;
+    border-radius: 10px;
+    background-color: #FFFFFF !important;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    padding: 66px 77px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.about .section-title:after{
+    content: '';
+    height: 3px;
+    width: 60px;
+    background-color:#1FDB84  ;
+    display: block;
+    position: relative;
+    margin-top: 22px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.about-content p{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+    color: #5B6C94;
+}
+
+.about-content img{
+    margin-bottom: 26px;
+}
+
+.about-content h4{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    color:#031D5B;
+}
+
+/*pricing*/
+
+.pricing{
+    margin-bottom: 85px;
+}
+
+.pricing .section-title{
+    color: #32325C;
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pricing .pricing-content-title{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.27px;
+    line-height: 32px;
+    color:#32325C;
+    margin-bottom: 20px;
+}
+
+.pricing-content-text{
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 32px;
+    color: #5B6C94;
+    margin-bottom: 57px;
+
+}
+
+.pricing-content-list{
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 32px;
+    color: #5B6C94;
+}
+
+.pricing-content-list li:last-of-type{
+    margin-bottom: 40px;
+}
+
+
+
+
+.pricing span{
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 64px;
+    height: 64px;
+    width: 110px;
+    color: #1FDB84;
+    margin-bottom: 13px;
+
+
+}
+
+.pricing .pricing-content:hover{
+
+    border-top: 3px solid #0A8AFF;
+    margin-top: -35px;
+    padding-top: 35px;
+
+}
+
+
+/*testimonials*/
+
+.testimonials{
+    height: 970px;
+}
+.testimonials .testimonials-image{
+    background: no-repeat;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 325px;
+    height: 350px;
+    position: relative;
+
+
+
+}
+
+.testimonials  h3{
+    position: absolute;
+    top:70px;
+    ;
+    left: 16px;
+    font-size: 36px;
+    font-weight: 500;
+    color:#031D5B;
+}
+
+
+
+.testimonials-content-text{
+    margin-bottom: 114px;
+}
+
+
+
+.owl-carousel.owl-drag .owl-item{
+    padding: 20px 63px;
+    height: 500px;
+    width: 540px;
+    border-radius: 6px;
+    background-color: #1FDB84;
+    box-shadow: 12px 12px 40px 0 rgba(31,219,132,0.5);
+    color:#fff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 36px;
+
+}
+
+.owl-carousel.owl-drag .owl-item p:first-of-type{
+    margin-bottom: 19px;
+}
+
+.owl-carousel.owl-drag .owl-item:nth-of-type(even){
+    background-color: rgba(255,255,255,0.95);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 36px;
+    color: #5B6C94;
+    box-shadow: 12px 12px 40px 0 rgba(121,121,121,0.3);
+}
+
+
+
+.owl-carousel .owl-item img{
+    height: 40px;
+    width: 63px;
+    margin-bottom: 23px;
+
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #1FDB84;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    border: 2px solid  #1FDB84;
+    background-color: transparent;
+}
+
+
+/*gallery*/
+
+.gallery{
+    margin-bottom: 71px;
+}
+
+ 
+
+.container-fluid{
+    padding: 0;
+    background-color: #1FDB84;
+    opacity:0.6;
+}
+
+
+.gallery .gallery-item {
+    flex: 0 0 50%;
+}
+
+.gallery-item a {
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    
+    display: none;
+}
+
+.gallery .gallery-item:hover   a{
+    display: block;
+}
+/*client*/
+
+.client{
+    margin-bottom: 100px;
+}
+
+.client h5{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    color: #031D5B !important;
+    margin-bottom: 55px;
+    font-weight: 400;
+}
+
+
+/*footer*/
+footer .footer-menu li{
+    margin-right: 18px;
+    margin-bottom: 10px;
+    color: #5B6C94;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+
+footer .footer-text{
+    color: #5B6C94;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+
